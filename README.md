@@ -24,22 +24,6 @@ This **Business Intelligence** solution was developed to transform raw historica
 
 ---
 
-## 📊 Monitored KPIs
-
-| Metric | Value | Description |
-| :--- | :--- | :--- |
-| **Forecast Accuracy** | **80.56%** | Measures the reliability of the model compared to actual results. |
-| **Forecasted Revenue** | **189.93K** | Estimated financial intake for the next operational week. |
-| **Weekly Trend** | **1.99%** | Rate of acceleration or deceleration in recent sales cycles. |
-| **Last Sales Date** | **9/9/2018** | Reference point for the current data refresh cycle. |
-
----
-
-## 💡 Business Impact
-This dashboard addresses critical operational challenges—such as those I managed during my time at **Liquilentes**—by reducing stockouts and increasing the precision of monthly financial reporting by approximately 90% through automated data workflows.
-
----
-
 ## 📂 Project Structure
 * **`/data`**: Contains both `input` (raw datasets) and `output` (processed forecast results) files.
 * **`/env`**: Dedicated environment for domain-specific configurations and dependencies.

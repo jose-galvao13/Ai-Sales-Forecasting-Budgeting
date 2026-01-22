@@ -9,9 +9,9 @@ This **Business Intelligence** solution was developed to transform raw historica
 
 * **High-Precision Forecasting:** Features a predictive engine achieving **80.56% Accuracy**, rigorously validated against historical sales performance.
 * **Dynamic Scenario Modeling:** Includes toggleable **Optimistic, Base, and Pessimistic scenarios** to visualize potential financial risks and opportunities.
-* **Real-Time Trend Monitoring:** Automated calculation of the current **Weekly Trend (1.99%)** and projected revenue for the following week.
-* **Time-Series Visualization:** Interactive charts decomposing performance from 2017 to 2019 to identify seasonal patterns.
-* **Data Integrity & Audit:** Integrated granular data tables for transparent verification of ROI and profit margins.
+* **Real-Time Trend Monitoring:** Automated calculation of the current **Weekly Trend (1.99%)** and projected revenue for the following week (**189.93K**).
+* **Time-Series Visualization:** Interactive charts decomposing performance from 2017 to 2019 to identify seasonal patterns by semester and month.
+* **Data Integrity & Audit:** Integrated granular data tables for transparent verification of forecasted values across different scenarios.
 
 ---
 
@@ -26,12 +26,12 @@ This **Business Intelligence** solution was developed to transform raw historica
 
 ## 📊 Monitored KPIs
 
-| Metric | Description |
-| :--- | :--- |
-| **Forecast Accuracy** | Measures the reliability of the model compared to actual results. |
-| **Forecasted Revenue** | Estimated financial intake for the next operational cycle. |
-| **Weekly Trend** | Rate of acceleration or deceleration in recent sales cycles. |
-| **Variance Analysis** | Visual comparison between actual sales and projected targets to pinpoint performance gaps. |
+| Metric | Value | Description |
+| :--- | :--- | :--- |
+| **Forecast Accuracy** | **80.56%** | Measures the reliability of the model compared to actual results. |
+| **Forecasted Revenue** | **189.93K** | Estimated financial intake for the next operational week. |
+| **Weekly Trend** | **1.99%** | Rate of acceleration or deceleration in recent sales cycles. |
+| **Last Sales Date** | **9/9/2018** | Reference point for the current data refresh cycle. |
 
 ---
 
@@ -41,6 +41,6 @@ This dashboard addresses critical operational challenges—such as those I manag
 ---
 
 ## 📂 Project Structure
-* `/data`: Sample datasets (anonymized).
-* `/reports`: Power BI (.pbix) files.
-* `/screens`: Dashboard screenshots and demo gifs.
+* **`/data`**: Contains both `input` (raw datasets) and `output` (processed forecast results) files.
+* **`/env`**: Dedicated environment for domain-specific configurations and dependencies.
+* **`/src`**: Source files and scripts used for data processing and modeling.
